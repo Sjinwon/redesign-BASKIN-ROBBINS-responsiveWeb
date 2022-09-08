@@ -619,9 +619,6 @@ header nav ul.gnb li > ul.sub > li > a{
     bottom: -30px;
     width: 210px;
   }
-  .brmenu .inner .contents2 div img{
-    width: 100%;
-  }
   .brmenu .inner .contents3{
     width: 284px;
     height: 262px;
@@ -637,36 +634,92 @@ header nav ul.gnb li > ul.sub > li > a{
     font-size: 18px;
   }
   .brmenu .inner .contents3 button{
-    position: absolute;
-    bottom: 40px;
-    left: 30px;
-    width: 150px;
-    height: 50px;
-    border: none;
-    background: #FFB0DA;
-    color: #fff;
-    border-radius: 5px;
-    transition: all 0.3s;
-    z-index: 3;
-  }
-  .brmenu .inner .contents3 button:hover{
-    position: absolute;
-    bottom: 37px;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1) inset;
-    color: #fff;
+    width: 100px;
+    height: 40px;
+    left: 20px;
   }
   .brmenu .inner .contents3 div{
     position: absolute;
-    right: -70px;
-    bottom: -40px;
-    width: 400px;
+    right: -55px;
+    bottom: -30px;
+    width: 270px;
   }
-  .brmenu .inner .contents3 div img{
-    width: 100%;
+  .brmenu .inner .contents4{
+    top: 186px;
+    width: 314px;
+    height: 262px;
   }
-
-
-
+  .brmenu .inner .contents4 span{
+    top: 20px;
+    left: 20px;
+    font-size: 18px;
+  }
+  .brmenu .inner .contents4 p{
+    top: 60px;
+    left: 20px;
+    font-size: 18px;
+  }
+  .brmenu .inner .contents4 button{
+    width: 100px;
+    height: 40px;
+    left: 20px;
+  }
+  .brmenu .inner .contents4 div{
+    position: absolute;
+    right: -20px;
+    bottom: -20px;
+    width: 200px;
+  }
+  .brmenu .inner .contents5{
+    width: 316px;
+    height: 297px;
+  }
+  .brmenu .inner .contents5 span{
+    top: 20px;
+    left: 20px;
+    font-size: 18px;
+  }
+  .brmenu .inner .contents5 p{
+    top: 90px;
+    left: 20px;
+    font-size: 18px;
+  }
+  .brmenu .inner .contents5 button{
+    width: 100px;
+    height: 40px;
+    left: 20px;
+  }
+  .brmenu .inner .contents5 div{
+    position: absolute;
+    right: -20px;
+    bottom: -20px;
+    width: 230px;
+  }
+  .brmenu .inner .contents6{
+    width: 316px;
+    height: 297px;
+  }
+  .brmenu .inner .contents6 span{
+    top: 20px;
+    left: 20px;
+    font-size: 18px;
+  }
+  .brmenu .inner .contents6 p{
+    top: 60px;
+    left: 20px;
+    font-size: 18px;
+  }
+  .brmenu .inner .contents6 button{
+    width: 100px;
+    height: 40px;
+    left: 20px;
+  }
+  .brmenu .inner .contents6 div{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    width: 180px;
+  }
 
 
 
