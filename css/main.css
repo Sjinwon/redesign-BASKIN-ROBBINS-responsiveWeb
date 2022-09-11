@@ -474,9 +474,89 @@ header nav ul.gnb li > ul.sub > li > a{
 .brmenu .inner .contents6 div img{
   width: 100%;
 }
+.brevent{
+  position: relative;
+  width: 100%;
+  height: 750px;
+}
+.brevent div.inner{
+  width: 1440px;
+  margin: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.brevent div.inner .inner__typo{
+  position: absolute;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: flex-end;
+  border-bottom: 1px solid #FFB0DA;
+}
+.brevent .inner .inner__typo span{
+  font-size: 24px;
+  line-height: 150px;
+}
+.brevent .inner .inner__typo h3{
+  font-size: 24px;
+  line-height: 150px;
+}
 
+.brevent .inner .slider-area{
+  position: absolute;
+  top: 200px;
+  width: 100%;
+  height: 550px;
+}
+.brevent .inner .slider-area #slider-div .cont{
+  height: 500px;
+}
+.brevent .inner .slider-area #slider-div .cont .contbox{
+  margin: 20px auto;
+  width: 330px;
+  height: 459px;
+  background-color: #fdfdfd;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+.brevent .inner .slider-area #slider-div .cont .contbox .cont__main-img{
+  width: 330px;
+}
+.brevent .inner .slider-area #slider-div .cont .contbox .cont__main-img img{
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+.brevent .inner .slider-area #slider-div .cont .contbox .cont__sub-img{
+  margin: 20px;
+}
+.brevent .inner .slider-area #slider-div .cont .contbox .cont__typo{
+  margin-left: 20px;
+  line-height: 1.5;
+}
+.brevent .inner .slider-area #slider-div .cont .contbox .cont__typo span{
+  font-size: 14px;
+  opacity: 0.5;
+}
+.br-ad{
+  width: 100%;
 
-/* mobile ----------------------------------------------- */
+}
+.br-ad .ad__box{
+  width: 100%;
+  display: flex;
+}
+.br-ad .ad__box img{
+  width: 50%;
+}
+.br-ad .ad-img{
+  width: 100%;
+}
+.br-ad .ad-img img{
+  width: 100%;
+}
+/* mobile -----------------------------------------------
+--------------------------------------------------------------------- */
 @media all and (max-width: 800px) {
   header h1{
     left: 0;
@@ -671,8 +751,8 @@ header nav ul.gnb li > ul.sub > li > a{
     width: 200px;
   }
   .brmenu .inner .contents5{
-    width: 316px;
-    height: 297px;
+    width: 300px;
+    height: 262px;
   }
   .brmenu .inner .contents5 span{
     top: 20px;
@@ -691,13 +771,13 @@ header nav ul.gnb li > ul.sub > li > a{
   }
   .brmenu .inner .contents5 div{
     position: absolute;
-    right: -20px;
+    right: -10px;
     bottom: -20px;
-    width: 230px;
+    width: 180px;
   }
   .brmenu .inner .contents6{
-    width: 316px;
-    height: 297px;
+    width: 300px;
+    height: 262px;
   }
   .brmenu .inner .contents6 span{
     top: 20px;
@@ -718,7 +798,31 @@ header nav ul.gnb li > ul.sub > li > a{
     position: absolute;
     right: 10px;
     bottom: 10px;
-    width: 180px;
+    width: 150px;
+  }
+  .brevent div.inner{
+    width: 82.25806451612903%;
+  }
+  .brevent .inner .slider-area #slider-div .cont .contbox{
+    width: 90%;
+  }
+  .brevent .inner .slider-area #slider-div .cont .contbox .cont__main-img{
+    width: 100%;
+  }
+  .brevent .inner .slider-area #slider-div .cont .contbox .cont__main-img img{
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+  }
+  .brevent .inner .slider-area #slider-div .cont .contbox .cont__sub-img{
+    margin: 20px;
+  }
+  .brevent .inner .slider-area #slider-div .cont .contbox .cont__typo{
+    margin: 20px;
+    line-height: 1.5;
+  }
+  .brevent .inner .slider-area #slider-div .cont .contbox .cont__typo span{
+    font-size: 14px;
+    opacity: 0.5;
   }
 
 
