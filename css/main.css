@@ -555,6 +555,113 @@ header nav ul.gnb li > ul.sub > li > a{
 .br-ad .ad-img img{
   width: 100%;
 }
+footer{
+  width: 100%;
+  height: 480px;
+  position: relative;
+}
+footer h1{
+  width: 400px;
+  height: 165px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 50px auto;
+}
+footer h1 a{
+  width: 100%;
+}
+footer h1 a img{
+  width: 100%;
+  display: block;
+}
+footer nav{
+  width: 100%;
+  height: 80px;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 160px;
+  border-top: 1px solid #FFB0DA;
+  border-bottom: 1px solid #FFB0DA;
+}
+footer nav ul{
+  margin: auto;
+  width: 1440px;
+  display: flex;
+  justify-content: space-between;
+}
+footer nav ul li{
+  text-align: center;
+}
+footer nav ul li a{
+  line-height: 80px;
+}
+footer .foot-box1{
+  width: 1440px;
+  position: absolute;
+  top: 275px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+}
+footer .foot-box1 address{
+  line-height: 1.4;
+  font-size: 14px;
+  opacity: 0.8;
+}
+footer .foot-box1 .sns{
+  
+}
+footer .foot-box1 .sns ul{
+  display: flex;
+}
+footer .foot-box1 .sns ul li{
+  width: 40px;
+  height: 40px;
+  border-radius: 1000px;
+  border: 1px solid #FFB0DA;
+  margin-left: 10px;
+}
+footer .foot-box1 .sns ul li a img{
+  width: 100%;
+}
+
+footer .foot-box2{
+  position: absolute;
+  width: 1440px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+footer .foot-box2 .copyright{
+  font-size: 14px;
+  opacity: 0.6;
+}
+footer .foot-box2 .prize{
+
+}
+footer .foot-box2 .prize ul{
+  display: flex;
+}
+footer .foot-box2 .prize ul li{
+  height: 25px;
+  margin-left: 15px;
+}
+footer .foot-box2 .prize ul li a img{
+  height: 100%;
+  opacity: 0.6;
+}
+
+
+
+
 /* mobile -----------------------------------------------
 --------------------------------------------------------------------- */
 @media all and (max-width: 800px) {
