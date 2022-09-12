@@ -31,7 +31,6 @@ header div.info{
 header div.info ul{
   display: flex;
   justify-content: center;
-  padding-right: 60px;
 }
 header div.info ul li{margin-left: 15px;}
 header div.info ul li a{
@@ -39,7 +38,6 @@ header div.info ul li a{
   color: #333;
   line-height: 30px;
   font-size: 14px;
-  padding: 1px 10px;
   transition: all 0.3s;
 }
 header div.info ul li a:hover{
@@ -67,10 +65,11 @@ header nav{
   position: absolute;
   bottom: 10px;
   right: 0;
+  z-index: 100;
 }
 header nav ul.gnb{
   display: flex;
-  margin-right: 100px;
+  /* margin-right: 50px; */
 }
 header nav ul.gnb > li{
   padding: 5px 50px;
@@ -79,11 +78,15 @@ header nav ul.gnb > li > a{
   color: #333;
   transition: all 0.4s;
 }
+header nav ul.gnb > li:hover > a{
+  color: #F04DA3;
+}
 
 header nav ul.gnb li > ul.sub{
   position: absolute;
   margin-top: 10px;
-  display: none; /* display : none */
+  /* sub.nav */
+  display: none; 
 }
 header nav ul.gnb li > ul.sub > li{
   margin: 20px 0 0 0;
@@ -93,6 +96,19 @@ header nav ul.gnb li > ul.sub > li > a{
   font-size: 14px;
   color: #333;
 }
+header .nav-bg{
+  width: 100%;
+  height: 350px;
+  background: #F04DA3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+
+
+
 
 .main-visual{
   position: relative;
@@ -613,9 +629,6 @@ footer .foot-box1 address{
   font-size: 14px;
   opacity: 0.8;
 }
-footer .foot-box1 .sns{
-  
-}
 footer .foot-box1 .sns ul{
   display: flex;
 }
@@ -644,9 +657,6 @@ footer .foot-box2 .copyright{
   font-size: 14px;
   opacity: 0.6;
 }
-footer .foot-box2 .prize{
-
-}
 footer .foot-box2 .prize ul{
   display: flex;
 }
@@ -662,7 +672,7 @@ footer .foot-box2 .prize ul li a img{
 
 
 
-/* mobile -----------------------------------------------
+/* tablet -----------------------------------------------
 --------------------------------------------------------------------- */
 @media all and (max-width: 800px) {
   header h1{
@@ -672,7 +682,7 @@ footer .foot-box2 .prize ul li a img{
   }
   header .info ul{
     /* justify-content: space-around !important; */
-    padding: 0 10px 0 0 !important;
+    margin-right: 10px;
   }
   header nav{
     display: none;
@@ -739,7 +749,7 @@ footer .foot-box2 .prize ul li a img{
   }
   .brmenu{
     width: 100%;
-    height: 1092px;
+    height: 900px;
     background-color: #F8F8F8;
   }
   .brmenu h3{
@@ -931,8 +941,295 @@ footer .foot-box2 .prize ul li a img{
     font-size: 14px;
     opacity: 0.5;
   }
+  footer{
+    height: 440px;
+  }
+  footer h1{
+    margin: 20px auto;
+  }
+  footer nav{
+    top: 90px;
+  }
+  footer nav ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  footer nav ul li{
+    text-align: center;
+  }
+  footer nav ul li a{
+    line-height: 80px;
+  }
+  footer .foot-box1{
+    width: 100%;
+    position: absolute;
+    top: 200px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .foot-box1 address{
+    line-height: 1.4;
+    font-size: 14px;
+    opacity: 0.8;
+    text-align: center;
+  }
+  footer .foot-box1 .sns{
+    margin-top: 15px;
+  }
+  
+  footer .foot-box2{
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .foot-box2 .copyright{
+    font-size: 14px;
+    opacity: 0.6;
+    order: 2;
+    margin-top: 20px;
+  }
+  footer .foot-box2 .prize{
+    order: 1;
+  }
 
 
 
+} /* talbet end !!!!!!! */
 
-} /* mobile end !!!!!!! */
+/* mobile --------------------------------------------
+----------------------------------------------------------- */
+@media all and (max-width: 600px) { 
+
+  .youtube .youtube-area .typo1{
+    display: flex;
+    position: absolute;
+    left: 12.5% !important;
+  }
+  .youtube .youtube-area .typo1 h3{
+    font-size: 20px;
+  }
+  .youtube .youtube-area .typo1 span{
+    display: none;
+  }
+  
+  .youtube .youtube-area .typo2{
+    position: absolute;
+    top: 550px !important;
+    left: 12.5% !important;
+  }
+  .youtube .youtube-area .typo2 p{
+    line-height: 1.5;
+    font-size: 16px;
+  }
+
+  .brmenu{
+    width: 100%;
+    height: 1900px;
+    background-color: #F8F8F8;
+  }
+  .brmenu h3{
+    position: absolute;
+    width: 100%;
+    text-align: left;
+    font-size: 20px;
+    padding-left: 12.5%;
+  }
+  .brmenu .inner{
+    width: 86.70212765957447%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .brmenu .inner .contents{
+    width: 86.70212765957447%;
+    height: 250px;
+    border-radius: 5px;
+    margin: 0 auto 50px;
+  }
+
+  .brmenu .inner .contents1{
+    top: 130px;
+  }
+  .brmenu .inner .contents1 span{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-size: 20px;
+  }
+  .brmenu .inner .contents1 p{
+    position: absolute;
+    top: 70px;
+    left: 30px;
+    font-size: 16px;
+  }
+  .brmenu .inner .contents button{
+    position: absolute;
+    bottom: 40px;
+    left: 30px;
+    width: 120px;
+    height: 40px;
+    border: none;
+    background: #FFB0DA;
+    color: #fff;
+    border-radius: 5px;
+    transition: all 0.3s;
+    /* box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1); */
+  }
+
+  .brmenu .inner .contents1 div{
+    width: 250px;
+    right: -20px;
+  }
+
+  .brmenu .inner .contents2{
+    top: 120px;
+  }
+  .brmenu .inner .contents2 span{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .brmenu .inner .contents2 p{
+    position: absolute;
+    top: 70px;
+    left: 30px;
+    font-size: 16px;
+  }
+  .brmenu .inner .contents2 div{
+    position: absolute;
+    right: -50px;
+    bottom: -40px;
+    width: 300px;
+  }
+  .brmenu .inner .contents3{
+    top: 110px;
+  }
+  .brmenu .inner .contents3 span{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .brmenu .inner .contents3 p{
+    position: absolute;
+    top: 70px;
+    left: 30px;
+    font-size: 16px;
+  }
+  .brmenu .inner .contents3 div{
+    position: absolute;
+    right: -50px;
+    bottom: -30px;
+    width: 300px;
+  }
+  .brmenu .inner .contents4{
+    top: 100px;
+  }
+  .brmenu .inner .contents4 span{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .brmenu .inner .contents4 p{
+    position: absolute;
+    top: 70px;
+    left: 30px;
+    font-size: 16px;
+  }
+  .brmenu .inner .contents4 div{
+    position: absolute;
+    right: -20px;
+    bottom: -20px;
+    width: 210px;
+  }
+  .brmenu .inner .contents5{
+    top: 90px;
+  }
+  .brmenu .inner .contents5 span{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .brmenu .inner .contents5 p{
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    font-size: 16px;
+  }
+  .brmenu .inner .contents5 div{
+    position: absolute;
+    right: -20px;
+    bottom: -20px;
+    width: 200px;
+  }
+  .brmenu .inner .contents6{
+    top: 80px;
+  }
+  .brmenu .inner .contents6 span{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .brmenu .inner .contents6 p{
+    position: absolute;
+    top: 70px;
+    left: 30px;
+    font-size: 16px;
+  }
+  .brmenu .inner .contents6 div{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    width: 160px;
+  }
+  .br-ad{
+    width: 100%;
+  
+  }
+  .br-ad .ad__box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .br-ad .ad__box img{
+    width: 100%;
+  }
+  .br-ad .ad-img{
+    width: 100%;
+    height: 100px;
+  }
+  .br-ad .ad-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+
+} /* mobile end!!!!!!!!!!!!!!!! */
+
+
+
