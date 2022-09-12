@@ -687,6 +687,36 @@ footer .foot-box2 .prize ul li a img{
   header nav{
     display: none;
   }
+  header .mo-nav{
+    width: 30px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: absolute;
+    right: 30px;
+    top: 70px;
+    z-index: 100;
+  }
+  header div.mo-nav span{
+    background: #333;
+  }
+  header div.mo-nav span:first-child{
+    margin-bottom: 5px;
+    width: 30px;
+    height: 3px;
+  }
+  header div.mo-nav span:nth-child(2){
+    margin-bottom: 5px;
+    width: 30px;
+    height: 3px;
+  }
+  header div.mo-nav span:last-child{
+    width: 23px;
+    height: 3px;
+    margin-left: 7px;
+  }
+
   .main-visual{
     position: relative;
     width: 100%;
