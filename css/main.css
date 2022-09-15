@@ -556,10 +556,10 @@ header .nav-bg{
 }
 .br-ad{
   width: 100%;
-
 }
 .br-ad .ad__box{
-  width: 100%;
+  width: 1440px;
+  margin: auto;
   display: flex;
 }
 .br-ad .ad__box img{
@@ -947,11 +947,55 @@ footer .foot-box2 .prize ul li a img{
     bottom: 10px;
     width: 150px;
   }
+  .brevent{
+    position: relative;
+    margin-top: 150px;
+    width: 100%;
+    height: 750px;
+  }
+  /* .brevent div.inner{
+    width: 1440px;
+    margin: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  } */
   .brevent div.inner{
     width: 82.25806451612903%;
   }
+  .brevent div.inner .inner__typo{
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px solid #FFB0DA;
+  }
+  .brevent .inner .inner__typo span{
+    font-size: 24px;
+    line-height: 150px;
+  }
+  .brevent .inner .inner__typo h3{
+    font-size: 24px;
+    line-height: 150px;
+  }
+  
+  .brevent .inner .slider-area{
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    height: 550px;
+  }
+  .brevent .inner .slider-area #slider-div .cont{
+    height: 500px;
+  }
   .brevent .inner .slider-area #slider-div .cont .contbox{
+    margin: 20px auto;
     width: 90%;
+    height: 440px;
+    background-color: #fdfdfd;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
   }
   .brevent .inner .slider-area #slider-div .cont .contbox .cont__main-img{
     width: 100%;
@@ -971,6 +1015,25 @@ footer .foot-box2 .prize ul li a img{
     font-size: 14px;
     opacity: 0.5;
   }
+  .br-ad{
+    width: 100%;
+  }
+  .br-ad .ad__box{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .br-ad .ad__box img{
+    width: 100%;
+  }
+  .br-ad .ad-img{
+    width: 100%;
+  }
+  .br-ad .ad-img img{
+    width: 100%;
+  }
+
   footer{
     height: 440px;
   }
@@ -1234,6 +1297,28 @@ footer .foot-box2 .prize ul li a img{
     right: 10px;
     bottom: 10px;
     width: 160px;
+  }
+
+
+  .brevent{
+    height: 680px;
+  }
+  .brevent div.inner{
+    width: 90%;
+    top: -150px;
+  }  
+  .brevent .inner .slider-area{
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    height: 550px;
+  }
+  .brevent .inner .slider-area #slider-div .cont{
+    height: 570px;
+  }
+  .brevent .inner .slider-area #slider-div .cont .contbox{
+    width: 80%;
+    height: 530px;
   }
   .br-ad{
     width: 100%;
