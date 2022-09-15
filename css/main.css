@@ -1137,9 +1137,8 @@ footer .foot-box2 .prize ul li a img{
   .brmenu h3{
     position: absolute;
     width: 100%;
-    text-align: left;
+    text-align: center;
     font-size: 20px;
-    padding-left: 12.5%;
   }
   .brmenu .inner{
     width: 86.70212765957447%;
@@ -1307,7 +1306,14 @@ footer .foot-box2 .prize ul li a img{
   .brevent div.inner{
     width: 90%;
     top: -150px;
+  }
+  .brevent .inner .inner__typo span{
+    display: none;
   }  
+  .brevent .inner .inner__typo h3{
+    font-size: 20px;
+    margin-right: 12.5%;
+  }
   .brevent .inner .slider-area{
     position: absolute;
     top: 200px;
