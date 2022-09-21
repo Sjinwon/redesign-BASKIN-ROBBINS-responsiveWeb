@@ -15,6 +15,7 @@
   font-style: normal;
 }
 
+/* header area */
 header{
   position: absolute;
   top: 0;
@@ -107,10 +108,7 @@ header .nav-bg{
   z-index: 100;
 }
 
-
-
-
-
+/* main visual area */
 .main-visual{
   position: relative;
   width: 100%;
@@ -151,6 +149,7 @@ header .nav-bg{
   margin-top: 10px;
 }
 
+/* youtube area */
 .youtube{
   width: 100%;
   height: 750px;
@@ -191,6 +190,8 @@ header .nav-bg{
   line-height: 1.5;
   font-size: 18px;
 }
+
+/* br menu area */
 .brmenu{
   width: 100%;
   height: 1136px;
@@ -491,6 +492,8 @@ header .nav-bg{
 .brmenu .inner .contents6 div img{
   width: 100%;
 }
+
+/* br event area */
 .brevent{
   position: relative;
   width: 100%;
@@ -519,7 +522,6 @@ header .nav-bg{
   font-size: 24px;
   line-height: 150px;
 }
-
 .brevent .inner .slider-area{
   position: absolute;
   top: 200px;
@@ -555,6 +557,8 @@ header .nav-bg{
   font-size: 14px;
   opacity: 0.5;
 }
+
+/* br ad area */
 .br-ad{
   width: 100%;
 }
@@ -572,6 +576,8 @@ header .nav-bg{
 .br-ad .ad-img img{
   width: 100%;
 }
+
+/* footer area */
 footer{
   width: 100%;
   height: 480px;
